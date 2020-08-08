@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: grey;
+  --secondary-color: turquoise; 
+}
+
+body {
+  background-color: white;
+  color: var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*-- Header --*/
+header {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-name {
+  background-color: aqua;
+  text-align: right;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 20px 0;
+  padding: 0 10px 0 30px;
+  border-radius: 0 15px 15px 0 ;
+}
+
+ nav {
+  padding-right: 100px;
+}
+
+header nav ul li a {
+  padding: 10px 10px;
+  margin: 5px;
+  font-weight: lighter;
+  font-size: 16;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid;
+}
+
+header nav ul li a:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+/*-- /Header --*/
+
+/*-- Hero --*/
+.hero {
+  background-color: blue;
+  height: 300px;
+  width: 100%;
+}
+/*-- /Hero --*/
+
+/*-- Content --*/
+.content {
+  background-color: red;
+  width: 100%;
+}
+
+.content article {
+  padding: 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  display: flex;
+  height: 600px;
+}
+
+.content-title {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-right: 3px solid;
+}
+
+.content-body {
+  background-color: green;
+  width: 100%;
+  position: relative;
+}
+/*-- /Content --*/
