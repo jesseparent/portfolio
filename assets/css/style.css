@@ -161,13 +161,13 @@ header nav ul li a:hover {
 
 .work div {
   background-color:var(--secondary-color);
-  padding: 5px;
+  padding: 3px;
   display: flex;
 }
 
 .work div .work-label {
   background-color: var(--secondary-color);
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
   align-self: flex-end;
   display: block;
 }
@@ -183,8 +183,40 @@ header nav ul li a:hover {
 .work1 {
   grid-column: 1/3;
   grid-row: 1/3;
-  background-image: url("http://www.jesster.net/images/kcif.jpg");
+  background-image: url("../images/work-runbuddy.jpg");
   height: 40vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+}
+
+.work2 {
+  background-image: url("../images/work-jesseparent.jpg");
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+}
+
+.work3 {
+  background-image: url("../images/work-jnj.jpg");
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+}
+
+.work4 {
+  background-image: url("../images/work-intel.jpg");
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+}
+
+.work5 {
+  background-image: url("../images/work-utahimprov.jpg");
+  height: 20vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 98% 98%;
@@ -240,6 +272,14 @@ header nav ul li a:hover {
   }
 
   .content-body p {
+    font-size: 2vw;
+  }
+
+  .work div .work-label h3 {
+    font-size: 2.5vw;
+  }
+  
+  .work div .work-label h4 {
     font-size: 2vw;
   }
 
