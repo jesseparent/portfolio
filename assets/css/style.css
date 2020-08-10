@@ -186,6 +186,7 @@ header nav ul li a:hover {
   background-position: center;
   background-size: 98% 98%;
   opacity: .8;
+  height: 19.5vw;
 }
 
 .work-item:hover {
@@ -200,23 +201,19 @@ header nav ul li a:hover {
 }
 
 .work2 {
-  background-image: url("../images/work-jesseparent.jpg");
-  height: 20vw;
+  background-image: url("../images/work-jesseparent.jpg");  
 }
 
 .work3 {
   background-image: url("../images/work-jnj.jpg");
-  height: 20vw;
 }
 
 .work4 {
   background-image: url("../images/work-intel.jpg");
-  height: 20vw;
 }
 
 .work5 {
   background-image: url("../images/work-utahimprov.jpg");
-  height: 20vw;
 }
 
 .contact-me-links {
@@ -340,5 +337,11 @@ header nav ul li a:hover {
   .work1 {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  .work-item {
+    height: 85vw;
+    width: 85vw;
+    justify-self: center;
   }
 }
