@@ -161,10 +161,11 @@ header nav ul li a:hover {
 
 .work div {
   background-color:var(--secondary-color);
-  padding: 3px;
+  padding: 2px;
   display: flex;
 }
 
+/* Need to refer to work-label in this path or the block layout for teh headers reverts to flex/inline */
 .work div .work-label {
   background-color: var(--secondary-color);
   margin: 0 0 15px 0;
@@ -180,46 +181,42 @@ header nav ul li a:hover {
   font-size: 1vw;
 }
 
+.work-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+  opacity: .8;
+}
+
+.work-item:hover {
+  opacity: 1;
+}
+
 .work1 {
   grid-column: 1/3;
   grid-row: 1/3;
   background-image: url("../images/work-runbuddy.jpg");
   height: 40vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 98%;
 }
 
 .work2 {
   background-image: url("../images/work-jesseparent.jpg");
   height: 20vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 98%;
 }
 
 .work3 {
   background-image: url("../images/work-jnj.jpg");
   height: 20vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 98%;
 }
 
 .work4 {
   background-image: url("../images/work-intel.jpg");
   height: 20vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 98%;
 }
 
 .work5 {
   background-image: url("../images/work-utahimprov.jpg");
   height: 20vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 98% 98%;
 }
 
 .contact-me-links {

@@ -22,6 +22,7 @@ In this project, a portfolio page was created using a [image mock-up](https://co
 - Used CSS variables for primary and secondary colors
 - Flexbox used for layouts in one direction
 - CSS Grid used for Work portfolio section
+- Changed opacity on hover for Work items
 - Media queries used to appropriately alter elements at different resolutions
 - View width (vw) used for most font sizes and width to be more reactive
 
