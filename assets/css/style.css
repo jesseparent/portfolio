@@ -196,29 +196,30 @@ header nav ul li a:hover {
 .work1 {
   grid-column: 1/3;
   grid-row: 1/3;
-  background-image: url("../images/work-runbuddy.jpg");
+  background-image: url("../images/work-avengers.jpg");
   height: 40vw;
 }
 
 .work2 {
-  background-image: url("../images/work-jesseparent.jpg");  
+  background-image: url("../images/work-runbuddy.jpg");
 }
 
 .work3 {
-  background-image: url("../images/work-jnj.jpg");
+  background-image: url("../images/work-jesseparent.jpg");  
 }
 
 .work4 {
-  background-image: url("../images/work-intel.jpg");
+  background-image: url("../images/work-jnj.jpg");
 }
 
 .work5 {
-  background-image: url("../images/work-utahimprov.jpg");
+  background-image: url("../images/work-intel.jpg");
 }
 
 .work6 {
-  background-image: url("../images/work-avengers.jpg");
+  background-image: url("../images/work-utahimprov.jpg");
 }
+
 
 .contact-me-links {
   display: flex;
