@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: rgb(66, 66, 66);
-  --secondary-color: rgb(107, 172, 192); 
+  --secondary-color: rgb(107, 172, 192);
 }
 
 body {
@@ -30,7 +30,7 @@ header {
   background-color: var(--primary-color);
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;  
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -42,7 +42,7 @@ header .header-name {
   position: relative;
   margin: 20px 0;
   padding: 0 10px 0 30px;
-  border-radius: 0 15px 15px 0 ;
+  border-radius: 0 15px 15px 0;
 }
 
 nav {
@@ -160,7 +160,7 @@ header nav ul li a:hover {
 }
 
 .work div {
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   padding: 2px;
   display: flex;
 }
@@ -185,7 +185,7 @@ header nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 98% 98%;
-  opacity: .8;
+  opacity: 0.8;
   height: 19.5vw;
 }
 
@@ -196,30 +196,29 @@ header nav ul li a:hover {
 .work1 {
   grid-column: 1/3;
   grid-row: 1/3;
-  background-image: url("../images/work-avengers.jpg");
+  background-image: url("../images/work-git-ticket.jpg");
   height: 40vw;
 }
 
 .work2 {
-  background-image: url("../images/work-runbuddy.jpg");
+  background-image: url("../images/work-avengers.jpg");
 }
 
 .work3 {
-  background-image: url("../images/work-jesseparent.jpg");  
+  background-image: url("../images/work-runbuddy.jpg");
 }
 
 .work4 {
-  background-image: url("../images/work-jnj.jpg");
+  background-image: url("../images/work-jesseparent.jpg");
 }
 
 .work5 {
-  background-image: url("../images/work-intel.jpg");
+  background-image: url("../images/work-jnj.jpg");
 }
 
 .work6 {
   background-image: url("../images/work-utahimprov.jpg");
 }
-
 
 .contact-me-links {
   display: flex;
@@ -237,18 +236,18 @@ header nav ul li a:hover {
   }
 
   header h1 {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   header nav ul {
-      width: 100%;
-      justify-content: center;
+    width: 100%;
+    justify-content: center;
   }
 
   header nav ul li a {
-      font-size: 20px;
-      border-bottom: none;
+    font-size: 20px;
+    border-bottom: none;
   }
 
   .content article {
@@ -264,7 +263,7 @@ header nav ul li a:hover {
     justify-content: center;
     width: 100%;
   }
-  
+
   .content-body {
     width: 100%;
     padding: 10px;
@@ -277,7 +276,7 @@ header nav ul li a:hover {
   .work div .work-label h3 {
     font-size: 2.5vw;
   }
-  
+
   .work div .work-label h4 {
     font-size: 2vw;
   }
@@ -330,11 +329,11 @@ header nav ul li a:hover {
   h2 {
     font-size: 4vw;
   }
-  
+
   .content-body p {
     font-size: 3vw;
   }
-  
+
   .work {
     grid-template-columns: 1fr;
   }
